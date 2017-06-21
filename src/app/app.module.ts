@@ -22,7 +22,7 @@ import { MaterialModule, MdList, MdListItem } from '@angular/material'
     FormsModule,
     HttpModule,
     InMemoryWebApiModule.forRoot(BikesDatabaseService),
-    MaterialModule.forRoot(),
+    MaterialModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],
